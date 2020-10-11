@@ -149,9 +149,6 @@ header {
   padding: 15px 40px;
   background-color: #0E0B16;
   cursor: pointer;
-}
-
-.comment_form {
   color: #fff;
 }
   
@@ -178,11 +175,11 @@ input , textarea {
 footer p {
   color: #fff;
   font-size: 12px;
+  background-color: rgba(161, 58, 203, 0.81);
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: rgba(161, 58, 203, 0.81);
-
 }
