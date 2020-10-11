@@ -147,9 +147,7 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #0E0B16;
   cursor: pointer;
-  color: #fff;
 }
   
 .message:active {
@@ -175,11 +173,13 @@ input , textarea {
 footer p {
   color: #fff;
   font-size: 12px;
-  background-color: rgba(161, 58, 203, 0.81);
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  height: 65px;
+  width: 100%;
   background-color: rgba(161, 58, 203, 0.81);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
