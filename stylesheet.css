@@ -61,6 +61,17 @@ header {
   margin-right: -25px;
 }
 
+.header-left a {
+  line-height: 65px;
+  font-size: 30px;
+  padding: 0 25px;
+  color: white;
+  font-weight:bold
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
@@ -117,7 +128,7 @@ header {
 }
 
 .text-contents {
-  width: 80%;
+  width: 75%;
   display: inline-block;
   margin-top: 15px;
   font-size: 20px;
@@ -140,6 +151,10 @@ header {
   cursor: pointer;
 }
 
+.comment_form {
+  color: #fff;
+}
+  
 .message:active {
   position: relative;
   top: 7px;
@@ -161,11 +176,13 @@ input , textarea {
   
 
 footer p {
-  color: #b3aeb5;
+  color: #fff;
   font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: rgba(161, 58, 203, 0.81);
+
 }
