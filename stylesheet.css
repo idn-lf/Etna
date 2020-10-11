@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family:'Helvetica', 'Arial', sans-serif;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://hdwallpaper20.com/wp-content/uploads/data/2018/3/3/36544950-math-pictures.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -41,61 +41,19 @@ a {
   margin-bottom: 3px;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(161, 58, 203, 0.81);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
 .header-left {
   float: left;
+  font-weight:bold
+
 }
 
 .header-right {
@@ -128,14 +86,14 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #E7DFDD;
   text-align: center;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #0E0B16;
 }
 
 .heading h2 {
@@ -162,8 +120,8 @@ header {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 20px;
+  color: #0E0B16;
 }
 
 .heading h3 {
@@ -178,9 +136,8 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #0E0B16;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
 }
 
 .message:active {
@@ -189,9 +146,19 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+input , textarea {
+  width: 400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
 }
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  
 
 footer p {
   color: #b3aeb5;
